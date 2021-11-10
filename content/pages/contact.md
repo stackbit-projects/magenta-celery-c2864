@@ -6,7 +6,8 @@ sections:
     text: >
       Let’s build something great together.
 
-      Complete our contact form or send us an email at [email@example.com](mailto:email@email.com) .
+      Complete our contact form or send us an email at
+      [email@example.com](mailto:email@email.com) .
     feature:
       type: FormBlock
       action: /.netlify/functions/submission_created
@@ -45,12 +46,21 @@ sections:
             can be contacted.
           width: full
           name: consent
+      destination: youval.vaknin@gmail.com
     styles:
       self:
         height: auto
         width: narrow
-        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
-        padding: ['pt-12', 'pb-12', 'pr-4', 'pl-4']
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pr-4
+          - pl-4
         alignItems: center
         justifyContent: center
         flexDirection: col
@@ -95,8 +105,16 @@ sections:
       self:
         height: auto
         width: wide
-        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
-        padding: ['pt-12', 'pb-12', 'pr-4', 'pl-4']
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pr-4
+          - pl-4
         justifyContent: center
       title:
         fontWeight: '700'
